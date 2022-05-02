@@ -1,0 +1,22 @@
+{
+  "name": "selfbot-engine",
+  "version": "1.0.0",
+  "description": "engine to send a message at an interval from a selfbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acoolindividual/selfbot-engine.git"
+  },
+  "author": "acoolindividual",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acoolindividual/selfbot-engine/issues"
+  },
+  "homepage": "https://github.com/acoolindividual/selfbot-engine#readme",
+  "dependencies": {
+    "discord.js-selfbot": "^12.0.2"
+  }
+}

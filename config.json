@@ -1,0 +1,13 @@
+{
+    "comment":"COMMENT: setting onMobile to true (no quotes) will show your status as active on iOS",
+    "onMobile":false,
+    "comment2":"options for presence: online, dnd, idle, and invisible",
+    "presence":"online",
+    "accToken":"ACCOUNT_TOKEN",
+    "channelId":"CHANNEL_ID",
+    "msgContent":"MESSAGE_CONTENT",
+    "comment3":"COMMENT: the program will generate a random amount of seconds in the range of the two numbers of the array. Set these to seperate numbers if you want to avoid being detected as a self bot.",
+    "intervalRange":[5, 5],
+    "comment4":"setting logging to true/false (no quotes) will turn logging on or off",
+    "logging":true
+}
