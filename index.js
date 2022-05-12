@@ -1,6 +1,6 @@
 console.log("Script started successfully")
+const { Client } = require('discord.js-selfbot-v13');
 var client;
-const Discord = require('discord.js-selfbot');
 const fs = require('fs');
 function randomIntFromInterval(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -31,11 +31,11 @@ if (!fs.existsSync('./config.json')) {
 	let config = JSON.parse(rawdata);
 	
 	if (config.onMobile) {
-		client = new Discord.Client({
+		client = new Client({
 			ws: { properties: { $browser: 'Discord iOS' } },
 		});
 	} else {
-		client = new Discord.Client();
+		client = new Client();
 		//shitty way to go about configuring mobile, but it works fine
 	}
 	client.login(config.accToken);
